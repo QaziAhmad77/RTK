@@ -23,12 +23,12 @@ h1 span {
   padding: 5px;
   font-size: 20px;
 }
-.content ul li button{
-    background-color: white;
-    color: red;
-    font-size: 20px;
-    border: none;
-    cursor: pointer;
+.content ul li button {
+  background-color: white;
+  color: red;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
 }
 .admin-table {
   display: flex;
@@ -47,4 +47,15 @@ h1 span {
 }
 hr {
   width: 500px;
+}
+.dlt-btn {
+  align-self: center;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: royalblue;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
 }
