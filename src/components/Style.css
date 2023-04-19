@@ -1,0 +1,50 @@
+h1 {
+  color: royalblue;
+  text-align: center;
+  font-size: 75px;
+  font-family: sans-serif;
+}
+h1 span {
+  color: red;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+.content ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  font-size: 20px;
+}
+.content ul li button{
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.admin-table {
+  display: flex;
+  justify-content: center;
+  gap: 40%;
+  font-size: 30px;
+}
+.admin-table button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: royalblue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+hr {
+  width: 500px;
+}
